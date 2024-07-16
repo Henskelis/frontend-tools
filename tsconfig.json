@@ -2,12 +2,6 @@
 	"references": [
 		{
 			"path": "./libs/animations/tsconfig.json"
-		},
-		{
-			"path": "./libs/localization/tsconfig.json"
-		},
-		{
-			"path": "./packages/helium-ui/tsconfig.json"
 		}
 	],
 	"files": []

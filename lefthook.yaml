@@ -1,9 +1,11 @@
 pre-commit:
   commands:
-    ts-check:
-      glob: "*.{ts,cts,mts,d.cts,d.mts}"
-      run: pnpm run ts-check
     format-lint:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,json,jsonc}"
       run: pnpm run format-lint {staged_files}
       stage_fixed: true
+
+pre-push:
+  commands:
+    ts-check:
+      run: pnpm run ts-check
