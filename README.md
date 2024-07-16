@@ -1,5 +1,7 @@
 # Front end tools
 
+![CI](https://github.com/Henskelis/frontend-tools/actions/workflows/ci.yaml/badge.svg)
+
 This is a monorepo containing various front end web projects.
 
 ## Libs
