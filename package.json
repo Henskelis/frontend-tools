@@ -4,7 +4,7 @@
 	"type": "module",
 	"scripts": {
 		"prepare": "lefthook install",
-		"format-lint": "biome check --no-errors-on-unmatched",
+		"format-lint": "biome check --write --no-errors-on-unmatched",
 		"ts-check": "tsc -b"
 	},
 	"packageManager": "pnpm@9.5.0",
