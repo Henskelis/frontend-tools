@@ -1,3 +1,8 @@
 {
-	"recommendations": ["biomejs.biome"]
+	"recommendations": [
+		"MylesMurphy.prettify-ts",
+		"YoavBls.pretty-ts-errors",
+		"biomejs.biome",
+		"streetsidesoftware.code-spell-checker"
+	]
 }

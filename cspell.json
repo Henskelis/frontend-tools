@@ -1,0 +1,19 @@
+{
+	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+	"version": "0.2",
+	"dictionaryDefinitions": [
+		{
+			"name": "extra-words",
+			"path": "./cspell-extra-words.txt",
+			"addWords": true
+		}
+	],
+	"dictionaries": ["extra-words"],
+	"ignorePaths": [
+		"node_modules",
+		"pnpm-lock.yaml",
+		"tsconfig.base.json",
+		"**/tsconfig.json",
+		"cspell-extra-words.txt"
+	]
+}
