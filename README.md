@@ -9,7 +9,7 @@ They contain shared code to be used by any publishable project.
 
 ### @henskelis/animations
 
-Collection of animations as ESM modules ready to be used with the [Web Animations API](https://developer.mozilla.org/fr/docs/Web/API/Web_Animations_API).
+Collection of animations as ESM modules ready to be used with the [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API).
 
 ### @henskelis/localization
 
