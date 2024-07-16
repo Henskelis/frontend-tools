@@ -4,8 +4,9 @@
 	"type": "module",
 	"scripts": {
 		"prepare": "lefthook install",
+		"ts-check": "tsc --build",
 		"format-lint": "biome check --write --no-errors-on-unmatched",
-		"ts-check": "tsc -b"
+		"spell-check": "cspell \"**\""
 	},
 	"packageManager": "pnpm@9.5.0",
 	"engines": {

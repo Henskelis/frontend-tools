@@ -10,11 +10,13 @@
 	],
 	"dictionaries": ["extra-words"],
 	"ignorePaths": [
+		"./cspell.json",
+		"cspell-extra-words.txt",
 		"node_modules",
 		"pnpm-lock.yaml",
 		"tsconfig.base.json",
 		"**/tsconfig.json",
-		"cspell-extra-words.txt",
+		"**/tsconfig.tsbuildinfo",
 		".vscode/**"
 	]
 }

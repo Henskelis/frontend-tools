@@ -8,12 +8,24 @@ jobs:
   code-quality:
     name: Code Quality
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20]
     steps:
-      - name: Checkout repository
+      - name: Checkout the repository
         uses: actions/checkout@v4
-      - name: Setup Biome
-        uses: biomejs/setup-biome@v2
-      - name: Formatting and linting checks
-        run: biome ci .
-      - name: Spelling checks
-        uses: streetsidesoftware/cspell-action@v6
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install
+      - name: Run the TypeScript compiler (tsc)
+        run: pnpm run ts-check
+      - name: Run the format and lint checker
+        run: pnpm biome ci .
+      - name: Run the spell checker
+        run: pnpm run spell-check
