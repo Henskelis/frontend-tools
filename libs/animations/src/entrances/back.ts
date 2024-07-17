@@ -4,17 +4,17 @@
 export const entranceBackUp: Keyframe[] = [
 	{
 		offset: 0,
-		transform: "translateT(1200px) scale(0.7)",
+		transform: "translate3d(0px, 1200px, 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
 		offset: 0.8,
-		transform: "translateY(0px) scale(0.7)",
+		transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
 		offset: 1,
-		transform: "scale(1)",
+		transform: "scale3d(1, 1, 1)",
 		opacity: "1",
 	},
 ];
@@ -25,17 +25,17 @@ export const entranceBackUp: Keyframe[] = [
 export const entranceBackDown: Keyframe[] = [
 	{
 		offset: 0,
-		transform: "translateY(-1200px) scale(0.7)",
+		transform: "translate3d(0px, -1200px, 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
 		offset: 0.8,
-		transform: "translateY(0px) scale(0.7)",
+		transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
 		offset: 1,
-		transform: "scale(1)",
+		transform: "scale3d(1, 1, 1)",
 		opacity: "1",
 	},
 ];
@@ -46,17 +46,17 @@ export const entranceBackDown: Keyframe[] = [
 export const entranceBackLeft: Keyframe[] = [
 	{
 		offset: 0,
-		transform: "translateX(-2000px) scale(0.7)",
+		transform: "translate3d(-2000px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
 		offset: 0.8,
-		transform: "translateX(0px) scale(0.7)",
+		transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
 		offset: 1,
-		transform: "scale(1)",
+		transform: "scale3d(1, 1, 1)",
 		opacity: "1",
 	},
 ];
@@ -67,17 +67,17 @@ export const entranceBackLeft: Keyframe[] = [
 export const entranceBackRight: Keyframe[] = [
 	{
 		offset: 0,
-		transform: "translateX(2000px) scale(0.7)",
+		transform: "translate3d(2000px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
 		offset: 0.8,
-		transform: "translateX(0px) scale(0.7)",
+		transform: "translate3d(0px, 0px 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
 		offset: 1,
-		transform: "scale(1)",
+		transform: "scale3d(1, 1, 1)",
 		opacity: "1",
 	},
 ];
