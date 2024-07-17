@@ -1,11 +1,11 @@
 /**
  * Entrance from the top with a back motion
  */
-export const entranceBackUp: Keyframe[] = [
+export const backTopEntrance: Keyframe[] = [
 	{
 		offset: 0,
-		transform: "translate3d(0px, 1200px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0.7",
+		transform: "translate3d(0px, -400px, 0px) scale3d(0.7, 0.7, 0.7)",
+		opacity: "0",
 	},
 	{
 		offset: 0.8,
@@ -22,11 +22,11 @@ export const entranceBackUp: Keyframe[] = [
 /**
  * Entrance from the bottom with a back motion
  */
-export const entranceBackDown: Keyframe[] = [
+export const backBottomEntrance: Keyframe[] = [
 	{
 		offset: 0,
-		transform: "translate3d(0px, -1200px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0.7",
+		transform: "translate3d(0px, 400px, 0px) scale3d(0.7, 0.7, 0.7)",
+		opacity: "0",
 	},
 	{
 		offset: 0.8,
@@ -43,11 +43,11 @@ export const entranceBackDown: Keyframe[] = [
 /**
  * Entrance from the left with a back motion
  */
-export const entranceBackLeft: Keyframe[] = [
+export const backLeftEntrance: Keyframe[] = [
 	{
 		offset: 0,
-		transform: "translate3d(-2000px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0.7",
+		transform: "translate3d(-400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+		opacity: "0",
 	},
 	{
 		offset: 0.8,
@@ -64,15 +64,15 @@ export const entranceBackLeft: Keyframe[] = [
 /**
  * Entrance from the right with a back motion
  */
-export const entranceBackRight: Keyframe[] = [
+export const backRightEntrance: Keyframe[] = [
 	{
 		offset: 0,
-		transform: "translate3d(2000px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0.7",
+		transform: "translate3d(400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+		opacity: "0",
 	},
 	{
 		offset: 0.8,
-		transform: "translate3d(0px, 0px 0px) scale3d(0.7, 0.7, 0.7)",
+		transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
 		opacity: "0.7",
 	},
 	{
