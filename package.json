@@ -1,5 +1,5 @@
 {
-	"name": "frontend-tools",
+	"name": "helium-ui",
 	"private": true,
 	"type": "module",
 	"scripts": {
