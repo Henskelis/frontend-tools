@@ -1,7 +1,7 @@
 pre-commit:
   commands:
     format-lint:
-      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,json,jsonc}"
+      glob: "*.{js,jsx,ts,tsx,cjs,mjs,d.cts,d.mts,json,jsonc}"
       run: pnpm run format-lint {staged_files}
       stage_fixed: true
 

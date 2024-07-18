@@ -8,16 +8,16 @@
 		"format-lint": "biome check --write --no-errors-on-unmatched",
 		"spell-check": "cspell \"**\""
 	},
-	"packageManager": "pnpm@9.5.0",
-	"engines": {
-		"node": ">=20",
-		"pnpm": ">=9"
-	},
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"@types/node": "^20.14.10",
 		"cspell": "^8.10.4",
 		"lefthook": "^1.7.2",
 		"typescript": "^5.5.3"
+	},
+	"packageManager": "pnpm@9.5.0",
+	"engines": {
+		"node": ">=20",
+		"pnpm": ">=9"
 	}
 }

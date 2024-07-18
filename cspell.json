@@ -3,15 +3,15 @@
 	"version": "0.2",
 	"dictionaryDefinitions": [
 		{
-			"name": "extra-words",
-			"path": "./cspell-extra-words.txt",
+			"name": "whitelist",
+			"path": "./cspell-whitelist.txt",
 			"addWords": true
 		}
 	],
-	"dictionaries": ["extra-words"],
+	"dictionaries": ["whitelist"],
 	"ignorePaths": [
 		"./cspell.json",
-		"cspell-extra-words.txt",
+		"cspell-whitelist.txt",
 		"node_modules",
 		"pnpm-lock.yaml",
 		"tsconfig.base.json",

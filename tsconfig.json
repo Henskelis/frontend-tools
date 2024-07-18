@@ -1,7 +1,10 @@
 {
 	"references": [
 		{
-			"path": "./libs/animations/tsconfig.json"
+			"path": "./packages/animations/tsconfig.json"
+		},
+		{
+			"path": "./docs/tsconfig.json"
 		}
 	],
 	"files": []
