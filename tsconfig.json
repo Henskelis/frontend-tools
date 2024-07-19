@@ -1,11 +1,11 @@
 {
-	"references": [
-		{
-			"path": "./packages/animations/tsconfig.json"
-		},
-		{
-			"path": "./docs/tsconfig.json"
-		}
-	],
-	"files": []
+  "references": [
+    {
+      "path": "./packages/animations/tsconfig.json"
+    },
+    {
+      "path": "./docs/tsconfig.json"
+    }
+  ],
+  "files": []
 }

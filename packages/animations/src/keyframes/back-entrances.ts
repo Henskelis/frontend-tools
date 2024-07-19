@@ -2,82 +2,82 @@
  * Entrance from the top with a back motion
  */
 export const backTopEntrance: Keyframe[] = [
-	{
-		offset: 0,
-		transform: "translate3d(0px, -400px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0",
-	},
-	{
-		offset: 0.8,
-		transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0.7",
-	},
-	{
-		offset: 1,
-		transform: "scale3d(1, 1, 1)",
-		opacity: "1",
-	},
+  {
+    offset: 0,
+    transform: "translate3d(0px, -400px, 0px) scale3d(0.7, 0.7, 0.7)",
+    opacity: "0",
+  },
+  {
+    offset: 0.8,
+    transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    opacity: "0.7",
+  },
+  {
+    offset: 1,
+    transform: "scale3d(1, 1, 1)",
+    opacity: "1",
+  },
 ];
 
 /**
  * Entrance from the bottom with a back motion
  */
 export const backBottomEntrance: Keyframe[] = [
-	{
-		offset: 0,
-		transform: "translate3d(0px, 400px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0",
-	},
-	{
-		offset: 0.8,
-		transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0.7",
-	},
-	{
-		offset: 1,
-		transform: "scale3d(1, 1, 1)",
-		opacity: "1",
-	},
+  {
+    offset: 0,
+    transform: "translate3d(0px, 400px, 0px) scale3d(0.7, 0.7, 0.7)",
+    opacity: "0",
+  },
+  {
+    offset: 0.8,
+    transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    opacity: "0.7",
+  },
+  {
+    offset: 1,
+    transform: "scale3d(1, 1, 1)",
+    opacity: "1",
+  },
 ];
 
 /**
  * Entrance from the left with a back motion
  */
 export const backLeftEntrance: Keyframe[] = [
-	{
-		offset: 0,
-		transform: "translate3d(-400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0",
-	},
-	{
-		offset: 0.8,
-		transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0.7",
-	},
-	{
-		offset: 1,
-		transform: "scale3d(1, 1, 1)",
-		opacity: "1",
-	},
+  {
+    offset: 0,
+    transform: "translate3d(-400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    opacity: "0",
+  },
+  {
+    offset: 0.8,
+    transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    opacity: "0.7",
+  },
+  {
+    offset: 1,
+    transform: "scale3d(1, 1, 1)",
+    opacity: "1",
+  },
 ];
 
 /**
  * Entrance from the right with a back motion
  */
 export const backRightEntrance: Keyframe[] = [
-	{
-		offset: 0,
-		transform: "translate3d(400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0",
-	},
-	{
-		offset: 0.8,
-		transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
-		opacity: "0.7",
-	},
-	{
-		offset: 1,
-		transform: "scale3d(1, 1, 1)",
-		opacity: "1",
-	},
+  {
+    offset: 0,
+    transform: "translate3d(400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    opacity: "0",
+  },
+  {
+    offset: 0.8,
+    transform: "translate3d(0px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    opacity: "0.7",
+  },
+  {
+    offset: 1,
+    transform: "scale3d(1, 1, 1)",
+    opacity: "1",
+  },
 ];

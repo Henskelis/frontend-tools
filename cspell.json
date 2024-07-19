@@ -1,22 +1,22 @@
 {
-	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
-	"version": "0.2",
-	"dictionaryDefinitions": [
-		{
-			"name": "whitelist",
-			"path": "./cspell-whitelist.txt",
-			"addWords": true
-		}
-	],
-	"dictionaries": ["whitelist"],
-	"ignorePaths": [
-		"./cspell.json",
-		"cspell-whitelist.txt",
-		"node_modules",
-		"pnpm-lock.yaml",
-		"tsconfig.base.json",
-		"**/tsconfig.json",
-		"**/tsconfig.tsbuildinfo",
-		".vscode/**"
-	]
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "dictionaryDefinitions": [
+    {
+      "name": "whitelist",
+      "path": "./cspell-whitelist.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": ["whitelist"],
+  "ignorePaths": [
+    "./cspell.json",
+    "cspell-whitelist.txt",
+    "node_modules",
+    "pnpm-lock.yaml",
+    "tsconfig.base.json",
+    "**/tsconfig.json",
+    "**/tsconfig.tsbuildinfo",
+    ".vscode/**"
+  ]
 }

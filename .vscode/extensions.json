@@ -1,9 +1,9 @@
 {
-	"recommendations": [
-		"MylesMurphy.prettify-ts",
-		"YoavBls.pretty-ts-errors",
-		"biomejs.biome",
-		"streetsidesoftware.code-spell-checker",
-		"github.vscode-github-actions"
-	]
+  "recommendations": [
+    "MylesMurphy.prettify-ts",
+    "YoavBls.pretty-ts-errors",
+    "biomejs.biome",
+    "streetsidesoftware.code-spell-checker",
+    "github.vscode-github-actions"
+  ]
 }
