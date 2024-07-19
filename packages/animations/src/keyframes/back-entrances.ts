@@ -4,7 +4,7 @@
 export const backTopEntrance: Keyframe[] = [
   {
     offset: 0,
-    transform: "translate3d(0px, -400px, 0px) scale3d(0.7, 0.7, 0.7)",
+    transform: "translate3d(0px, -100%, 0px) scale3d(0.7, 0.7, 0.7)",
     opacity: "0",
   },
   {
@@ -25,7 +25,7 @@ export const backTopEntrance: Keyframe[] = [
 export const backBottomEntrance: Keyframe[] = [
   {
     offset: 0,
-    transform: "translate3d(0px, 400px, 0px) scale3d(0.7, 0.7, 0.7)",
+    transform: "translate3d(0px, 100%, 0px) scale3d(0.7, 0.7, 0.7)",
     opacity: "0",
   },
   {
@@ -46,7 +46,7 @@ export const backBottomEntrance: Keyframe[] = [
 export const backLeftEntrance: Keyframe[] = [
   {
     offset: 0,
-    transform: "translate3d(-400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    transform: "translate3d(-100%, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
     opacity: "0",
   },
   {
@@ -67,7 +67,7 @@ export const backLeftEntrance: Keyframe[] = [
 export const backRightEntrance: Keyframe[] = [
   {
     offset: 0,
-    transform: "translate3d(400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    transform: "translate3d(100%, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
     opacity: "0",
   },
   {

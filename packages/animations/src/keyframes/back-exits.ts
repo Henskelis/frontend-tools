@@ -14,7 +14,7 @@ export const backTopExit: Keyframe[] = [
   },
   {
     offset: 1,
-    transform: "translate3d(0px, -400px, 0px) scale3d(0.7, 0.7, 0.7)",
+    transform: "translate3d(0px, -100%, 0px) scale3d(0.7, 0.7, 0.7)",
     opacity: "0",
   },
 ];
@@ -35,7 +35,7 @@ export const backBottomExit: Keyframe[] = [
   },
   {
     offset: 1,
-    transform: "translate3d(0px, 400px, 0px) scale3d(0.7, 0.7, 0.7)",
+    transform: "translate3d(0px, 100%, 0px) scale3d(0.7, 0.7, 0.7)",
     opacity: "0",
   },
 ];
@@ -56,7 +56,7 @@ export const backLeftExit: Keyframe[] = [
   },
   {
     offset: 1,
-    transform: "translate3d(-400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    transform: "translate3d(-100%, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
     opacity: "0",
   },
 ];
@@ -77,7 +77,7 @@ export const backRightExit: Keyframe[] = [
   },
   {
     offset: 1,
-    transform: "translate3d(400px, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
+    transform: "translate3d(100%, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
     opacity: "0",
   },
 ];
