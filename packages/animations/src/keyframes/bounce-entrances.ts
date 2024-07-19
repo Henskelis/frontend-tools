@@ -28,11 +28,13 @@ export const bounceTopEntrance: Keyframe[] = [
     offset: 0.9,
     easing: easeOutCubic,
     transform: "translate3d(0px, 10px, 0px) scale3d(1, 0.97, 1)",
+    opacity: "1",
   },
   {
     offset: 1,
     easing: easeOutCubic,
     transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1)",
+    opacity: "1",
   },
 ];
 
@@ -62,11 +64,13 @@ export const bounceBottomEntrance: Keyframe[] = [
     offset: 0.9,
     easing: easeOutCubic,
     transform: "translate3d(0px, -10px, 0px) scale3d(1, 0.97, 1)",
+    opacity: "1",
   },
   {
     offset: 1,
     easing: easeOutCubic,
     transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1)",
+    opacity: "1",
   },
 ];
 
@@ -96,11 +100,13 @@ export const bounceLeftEntrance: Keyframe[] = [
     offset: 0.9,
     easing: easeOutCubic,
     transform: "translate3d(10px, 0px, 0px) scale3d(0.97, 1, 1)",
+    opacity: "1",
   },
   {
     offset: 1,
     easing: easeOutCubic,
     transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1)",
+    opacity: "1",
   },
 ];
 
@@ -130,11 +136,13 @@ export const bounceRightEntrance: Keyframe[] = [
     offset: 0.9,
     easing: easeOutCubic,
     transform: "translate3d(-10px, 0px, 0px) scale3d(0.97, 1, 1)",
+    opacity: "1",
   },
   {
     offset: 1,
     easing: easeOutCubic,
     transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1)",
+    opacity: "1",
   },
 ];
 
@@ -170,10 +178,12 @@ export const bounceEntrance: Keyframe[] = [
     offset: 0.8,
     easing: easeOutCubic,
     transform: "scale3d(0.98, 0.98, 0.98)",
+    opacity: "1",
   },
   {
     offset: 1,
     easing: easeOutCubic,
     transform: "scale3d(1, 1, 1)",
+    opacity: "1",
   },
 ];
