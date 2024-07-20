@@ -1,11 +1,12 @@
 import easingFunctions from "../easing-functions";
+import type { Animation } from "../types";
 
 const { easeOut } = easingFunctions;
 
 /**
  * Exit with a flipping motion on the X axis
  */
-export const flipXExit: Keyframe[] = [
+export const flipXExit: Animation = [
   {
     offset: 0,
     transform: "perspective(500px)",
@@ -26,7 +27,7 @@ export const flipXExit: Keyframe[] = [
 /**
  * Exit with a flipping motion on the Y axis
  */
-export const flipYExit: Keyframe[] = [
+export const flipYExit: Animation = [
   {
     offset: 0,
     transform: "perspective(500px)",

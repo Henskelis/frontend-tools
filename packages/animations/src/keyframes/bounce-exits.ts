@@ -1,11 +1,12 @@
 import easingFunctions from "../easing-functions";
+import type { Animation } from "../types";
 
 const { easeOutCubic } = easingFunctions;
 
 /**
  * Exit to the top with a bouncing motion
  */
-export const bounceTopExit: Keyframe[] = [
+export const bounceTopExit: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,
@@ -41,7 +42,7 @@ export const bounceTopExit: Keyframe[] = [
 /**
  * Exit to the bottom with a bouncing motion
  */
-export const bounceBottomExit: Keyframe[] = [
+export const bounceBottomExit: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,
@@ -77,7 +78,7 @@ export const bounceBottomExit: Keyframe[] = [
 /**
  * Exit to the left with a bouncing motion
  */
-export const bounceLeftExit: Keyframe[] = [
+export const bounceLeftExit: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,
@@ -113,7 +114,7 @@ export const bounceLeftExit: Keyframe[] = [
 /**
  * Exit to the right with a bouncing animation
  */
-export const bounceRightExit: Keyframe[] = [
+export const bounceRightExit: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,
@@ -149,7 +150,7 @@ export const bounceRightExit: Keyframe[] = [
 /**
  * Exit to the center with a bouncing motion
  */
-export const bounceExit: Keyframe[] = [
+export const bounceExit: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,

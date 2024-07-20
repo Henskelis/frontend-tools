@@ -1,11 +1,12 @@
 import easingFunctions from "../easing-functions";
+import type { Animation } from "../types";
 
 const { easeOutCubic } = easingFunctions;
 
 /**
  * Entrance from the top with a bouncing motion
  */
-export const bounceTopEntrance: Keyframe[] = [
+export const bounceTopEntrance: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,
@@ -41,7 +42,7 @@ export const bounceTopEntrance: Keyframe[] = [
 /**
  * Entrance from the bottom with a bouncing motion
  */
-export const bounceBottomEntrance: Keyframe[] = [
+export const bounceBottomEntrance: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,
@@ -77,7 +78,7 @@ export const bounceBottomEntrance: Keyframe[] = [
 /**
  * Entrance from the left with a bouncing motion
  */
-export const bounceLeftEntrance: Keyframe[] = [
+export const bounceLeftEntrance: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,
@@ -113,7 +114,7 @@ export const bounceLeftEntrance: Keyframe[] = [
 /**
  * Entrance from the right with a bouncing motion
  */
-export const bounceRightEntrance: Keyframe[] = [
+export const bounceRightEntrance: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,
@@ -149,7 +150,7 @@ export const bounceRightEntrance: Keyframe[] = [
 /**
  * Entrance from the center with a bouncing motion
  */
-export const bounceEntrance: Keyframe[] = [
+export const bounceEntrance: Animation = [
   {
     offset: 0,
     easing: easeOutCubic,

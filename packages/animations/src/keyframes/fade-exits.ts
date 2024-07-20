@@ -1,7 +1,9 @@
+import type { Animation } from "../types";
+
 /**
  * Exit with a fading motion
  */
-export const fadeExit: Keyframe[] = [
+export const fadeExit: Animation = [
   {
     offset: 0,
     opacity: "1",

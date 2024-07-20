@@ -1,11 +1,12 @@
 import easingFunctions from "../easing-functions";
+import type { Animation } from "../types";
 
 const { easeIn } = easingFunctions;
 
 /**
  * Entrance with a flipping motion on the X axis
  */
-export const flipXEntrance: Keyframe[] = [
+export const flipXEntrance: Animation = [
   {
     offset: 0,
     easing: easeIn,
@@ -26,7 +27,7 @@ export const flipXEntrance: Keyframe[] = [
 /**
  * Entrance with a flipping motion on the Y axis
  */
-export const flipYEntrance: Keyframe[] = [
+export const flipYEntrance: Animation = [
   {
     offset: 0,
     easing: easeIn,

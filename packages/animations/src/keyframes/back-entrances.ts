@@ -1,7 +1,9 @@
+import type { Animation } from "../types";
+
 /**
  * Entrance from the top with a back motion
  */
-export const backTopEntrance: Keyframe[] = [
+export const backTopEntrance: Animation = [
   {
     offset: 0,
     transform: "translate3d(0px, -100%, 0px) scale3d(0.7, 0.7, 0.7)",
@@ -22,7 +24,7 @@ export const backTopEntrance: Keyframe[] = [
 /**
  * Entrance from the bottom with a back motion
  */
-export const backBottomEntrance: Keyframe[] = [
+export const backBottomEntrance: Animation = [
   {
     offset: 0,
     transform: "translate3d(0px, 100%, 0px) scale3d(0.7, 0.7, 0.7)",
@@ -43,7 +45,7 @@ export const backBottomEntrance: Keyframe[] = [
 /**
  * Entrance from the left with a back motion
  */
-export const backLeftEntrance: Keyframe[] = [
+export const backLeftEntrance: Animation = [
   {
     offset: 0,
     transform: "translate3d(-100%, 0px, 0px) scale3d(0.7, 0.7, 0.7)",
@@ -64,7 +66,7 @@ export const backLeftEntrance: Keyframe[] = [
 /**
  * Entrance from the right with a back motion
  */
-export const backRightEntrance: Keyframe[] = [
+export const backRightEntrance: Animation = [
   {
     offset: 0,
     transform: "translate3d(100%, 0px, 0px) scale3d(0.7, 0.7, 0.7)",

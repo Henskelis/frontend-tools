@@ -1,7 +1,9 @@
+import type { Animation } from "../types";
+
 /**
  * Exit from the top with a sliding motion
  */
-export const slideTopExit: Keyframe[] = [
+export const slideTopExit: Animation = [
   {
     offset: 0,
     transform: "translate3d(0px, 0px, 0px)",
@@ -17,7 +19,7 @@ export const slideTopExit: Keyframe[] = [
 /**
  * Exit from the bottom with a sliding motion
  */
-export const slideBottomExit: Keyframe[] = [
+export const slideBottomExit: Animation = [
   {
     offset: 0,
     transform: "translate3d(0px, 0px, 0px)",
@@ -33,7 +35,7 @@ export const slideBottomExit: Keyframe[] = [
 /**
  * Exit from the left with a sliding motion
  */
-export const slideLeftExit: Keyframe[] = [
+export const slideLeftExit: Animation = [
   {
     offset: 0,
     transform: "translate3d(0px, 0px, 0px)",
@@ -49,7 +51,7 @@ export const slideLeftExit: Keyframe[] = [
 /**
  * Exit from the right with a sliding motion
  */
-export const slideRightExit: Keyframe[] = [
+export const slideRightExit: Animation = [
   {
     offset: 0,
     transform: "translate3d(0px, 0px, 0px)",

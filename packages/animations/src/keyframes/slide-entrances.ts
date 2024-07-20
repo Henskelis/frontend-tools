@@ -1,7 +1,9 @@
+import type { Animation } from "../types";
+
 /**
  * Entrance from the top with a sliding motion
  */
-export const slideTopEntrance: Keyframe[] = [
+export const slideTopEntrance: Animation = [
   {
     offset: 0,
     transform: "translate3d(0px, -100%, 0px)",
@@ -17,7 +19,7 @@ export const slideTopEntrance: Keyframe[] = [
 /**
  * Entrance from the bottom with a sliding motion
  */
-export const slideBottomEntrance: Keyframe[] = [
+export const slideBottomEntrance: Animation = [
   {
     offset: 0,
     transform: "translate3d(0px, 100%, 0px)",
@@ -33,7 +35,7 @@ export const slideBottomEntrance: Keyframe[] = [
 /**
  * Entrance from the left with a sliding motion
  */
-export const slideLeftEntrance: Keyframe[] = [
+export const slideLeftEntrance: Animation = [
   {
     offset: 0,
     transform: "translate3d(-100%, 0px, 0px)",
@@ -49,7 +51,7 @@ export const slideLeftEntrance: Keyframe[] = [
 /**
  * Entrance from the right with a sliding motion
  */
-export const slideRightEntrance: Keyframe[] = [
+export const slideRightEntrance: Animation = [
   {
     offset: 0,
     transform: "translate3d(100%, 0px, 0px)",

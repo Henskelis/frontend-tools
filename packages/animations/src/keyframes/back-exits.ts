@@ -1,7 +1,9 @@
+import type { Animation } from "../types";
+
 /**
  * Exit to the top with a back motion
  */
-export const backTopExit: Keyframe[] = [
+export const backTopExit: Animation = [
   {
     offset: 0,
     transform: "scale3d(1, 1, 1)",
@@ -22,7 +24,7 @@ export const backTopExit: Keyframe[] = [
 /**
  * Exit to the bottom with a back motion
  */
-export const backBottomExit: Keyframe[] = [
+export const backBottomExit: Animation = [
   {
     offset: 0,
     transform: "scale3d(1, 1, 1)",
@@ -43,7 +45,7 @@ export const backBottomExit: Keyframe[] = [
 /**
  * Exit to the left with a back motion
  */
-export const backLeftExit: Keyframe[] = [
+export const backLeftExit: Animation = [
   {
     offset: 0,
     transform: "scale3d(1, 1, 1)",
@@ -64,7 +66,7 @@ export const backLeftExit: Keyframe[] = [
 /**
  * Exit to the right with a back motion
  */
-export const backRightExit: Keyframe[] = [
+export const backRightExit: Animation = [
   {
     offset: 0,
     transform: "scale3d(1, 1, 1)",
