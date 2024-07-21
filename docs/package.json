@@ -30,11 +30,7 @@
   },
   "browserslist": {
     "production": [">0.5%", "not dead", "not op_mini all"],
-    "development": [
-      "last 3 chrome version",
-      "last 3 firefox version",
-      "last 5 safari version"
-    ]
+    "development": ["last 3 chrome version", "last 3 firefox version", "last 5 safari version"]
   },
   "packageManager": "pnpm@9.5.0",
   "engines": {
