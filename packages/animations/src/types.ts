@@ -4,22 +4,91 @@
 export type Animation = Keyframe[];
 
 /**
- * Direction of a flipping animation on the X axis
- *
- * ttb - Top to bottom
- * btt - Bottom to top
+ * Options for a backing animation
  */
-export type FlipXDirection = "ttb" | "btt";
+export type BackOptions = {
+  /**
+   * The direction to enter from (entrance animation) or exit to (exit animation)
+   *
+   * @defaultValue `top`
+   */
+  direction?: "top" | "bottom" | "left" | "right";
+};
 
 /**
- * Direction of a flipping animation on the Y axis
- *
- * ltr - Left to right
- * rtl - Right to left
+ * Options for a bouncing animation
  */
-export type FlipYDirection = "ltr" | "rtl";
+export type BounceOptions = {
+  /**
+   * The direction to enter from (entrance animation) or exit to (exit animation)
+   *
+   * @defaultValue `center`
+   */
+  direction?: "center" | "top" | "bottom" | "left" | "right";
+};
 
 /**
- * Direction of a rotating animation
+ * Options for a flipping animation
  */
-export type RotationDirection = "clockwise" | "counterclockwise";
+export type FlipOptions =
+  | {
+      /**
+       * The axis to use for the flip
+       */
+      axis?: "x";
+
+      /**
+       * The direction of the flip
+       *
+       * `ttb` for top to bottom and `btt` for bottom to top
+       *
+       * @defaultValue `ttb`
+       */
+      direction?: "ttb" | "btt";
+    }
+  | {
+      /**
+       * The axis to use for the flip
+       */
+      axis?: "y";
+
+      /**
+       * The direction of the flip
+       *
+       * `ltr` for left to right and `rtl` for right to left
+       *
+       * @defaultValue `ltr`
+       */
+      direction?: "ltr" | "rtl";
+    };
+
+/**
+ * Options for a rotating animation
+ */
+export type RotateOptions = {
+  /**
+   * The direction to enter from (entrance animation) or exit to (exit animation)
+   *
+   * @defaultValue `center`
+   */
+  direction?: "center" | "top" | "bottom" | "left" | "right";
+
+  /**
+   * The direction the rotation should be done
+   *
+   * @defaultValue `clockwise`
+   */
+  type?: "clockwise" | "counterclockwise";
+};
+
+/**
+ * Options for a sliding animation
+ */
+export type SlideOptions = {
+  /**
+   * The direction to enter from (entrance animation) or exit to (exit animation)
+   *
+   * @defaultValue `top`
+   */
+  direction?: "top" | "bottom" | "left" | "right";
+};
